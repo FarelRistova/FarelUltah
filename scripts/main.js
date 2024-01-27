@@ -22,7 +22,7 @@ window.onbeforeunload = () => {
 function openGift() {
     document.querySelector('.explosion').style.display = 'block';
     setTimeout(function () {
-        alert("Terimakasih sudah datang");
+        alert("Terimakasih sudah datang kesini, semoga hari mu menyenang kan 😊");
         document.querySelector('.explosion').style.display = 'none';
     }, 500);
 }
